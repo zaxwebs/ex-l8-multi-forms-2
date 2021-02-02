@@ -11,5 +11,14 @@
 			</div>
 		</x-form>
 	</div>
+	<div class="col-md-6 mb-3">
+		<h1>Form B</h1>
+		<x-form action="{{ route('processor') }}" name="form-b">
+			<x-input form="form-b" label="Email" name="email" />
+			<div class="mb-3">
+				<button type="submit" class="btn btn-primary">Validate</button>
+			</div>
+		</x-form>
+	</div>
 </div>
 @endsection
