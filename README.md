@@ -11,9 +11,6 @@
 
 In this post, I'd like to explain my process of handling & validating multiple forms that can have same-named fields. For example, you can have two side by side forms, say, login and signup on the same page. And you are likely to have matching fields like username, password, and such. If you use something like `old('username')` as the value, the respective fields of both forms would be populated even if you submitted just one.
 
-# The Product
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/yr98zcpxbxf9v9s1tsdh.gif)
-
 Disclaimer: This is experimental at the moment, I'm still refining my procedure and looking into other ideas. This is a journal of what I have come up with so far.
 
 Alright, let's get down to it.
